@@ -37,6 +37,10 @@
   .description {
     margin-block: 20px 17px;
   }
+
+  h3 {
+    margin-bottom: 8px;
+  }
 }
 
 p {
