@@ -31,3 +31,22 @@
   --text-md: 400 16px/140% var(--maven-pro);
   --text-sm: 400 14px/140% var(--maven-pro);
 }
+
+body {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--gray-200);
+}
+
+
+h1 {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--gray-400);
+}
