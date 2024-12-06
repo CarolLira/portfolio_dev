@@ -40,10 +40,20 @@ body {
   background-color: var(--gray-200);
 }
 
+h1, h2, h3 {
+  color: var(--gray-600);
+}
 
 h1 {
   font: var(--title-lg);
-  color: var(--gray-600);
+}
+
+h2 {
+  font: var(--title-md);
+}
+
+h3 {
+  font: var(--title-sm);
 }
 
 p {
