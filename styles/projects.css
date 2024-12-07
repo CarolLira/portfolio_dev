@@ -15,6 +15,7 @@
 #cards {
   display: grid;
   grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(2, 280px);
   gap: 24px;
   margin-bottom: 144px;
 
