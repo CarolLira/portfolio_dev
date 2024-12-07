@@ -40,6 +40,10 @@ body {
   background-color: var(--gray-200);
 }
 
+header, main {
+  min-width: 1366px;
+}
+
 h1, h2, h3 {
   color: var(--gray-600);
 }
@@ -58,5 +62,5 @@ h3 {
 
 p {
   font: var(--text-sm);
-  color: var(--gray-400);
+  color: var(--gray-500);
 }

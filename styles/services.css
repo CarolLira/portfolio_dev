@@ -1,0 +1,41 @@
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--gray-100);
+
+  .subtitle {
+    margin: 88px 0 8px;
+  }
+
+  h2 {
+    margin-bottom: 56px;
+  }
+}
+
+#service-cards {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+
+  .item {
+    width: 280px;
+    height: 155px;
+    border: 2px solid var(--gray-200);
+    border-radius: 12px;
+  }
+
+  img {
+    width: 48px;
+    height: 48px;
+    margin: 20px;
+  }
+
+  h3 {
+    margin: 0 20px 8px;
+  }
+
+  p {
+    margin: 0px 20px 20px;
+  }
+}
