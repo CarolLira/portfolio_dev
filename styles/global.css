@@ -40,7 +40,7 @@ body {
   background-color: var(--gray-200);
 }
 
-header, main {
+header, main, footer {
   min-width: 1366px;
 }
 

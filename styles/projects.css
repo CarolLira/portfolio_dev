@@ -21,22 +21,15 @@
 
   .item {
     background-color: var(--gray-300);
+    padding: 12px 12px 17px;
     border-radius: 12px;
-  }
-
-  img, .description {
-    margin-inline: 12px; 
   }
 
   img {
     width: 306px;
     height: 156px;
     border-radius: 8px;
-    margin-top: 20px;
-  }
-
-  .description {
-    margin-block: 20px 17px;
+    margin-bottom: 20px;
   }
 
   h3 {

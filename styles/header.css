@@ -59,7 +59,6 @@
   }
 
   p {
-    font: var(--text-sm);
     color: var(--gray-400);
   }
 }
@@ -85,6 +84,5 @@
 
   p {
     font: var(--text-md);
-    color: var(--gray-500);
   }
 }
