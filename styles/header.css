@@ -29,25 +29,25 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
 
-  img:nth-child(1) {
-    width: 96px;
-    height: 96px;
-  }
+    &:nth-child(1) {
+      width: 96px;
+      height: 96px;
+    }
 
-  img:nth-child(2) {
-    width: 87.27px;
-    height: 87.27px;
-    border-radius: 50%;
-  }
+    &:nth-child(2) {
+      width: 87.27px;
+      height: 87.27px;
+      border-radius: 50%;
+    }
 
-  img:nth-child(3) {
-    top: 98%;
-    left: 80%;
-    transform: translate(-50%, -50%);
-    width: 32px;
-    height: 32px;
+    &:nth-child(3) {
+      top: 98%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      width: 32px;
+      height: 32px;
+    }
   }
 
   .subtitle {

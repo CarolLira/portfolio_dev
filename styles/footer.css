@@ -9,11 +9,12 @@
   justify-content: center;
   align-items: center;
 
-  .subtitle, h2 {
+  .subtitle,
+  h2 {
     margin-bottom: 8px;
   }
 
-  p {
+  p:not(.subtitle) {
     font: var(--text-md);
   }
 }
@@ -29,21 +30,71 @@
     width: 400px;
     height: 68px;
     background-color: var(--gray-300);
+    border: 1.5px solid var(--gray-300);
     padding: 20px;
+
+    &:hover span#linkedin-logo {
+      background-image: url(../assets/icons/linkedin-logo-blue.svg);
+      width: 28px;
+      height: 28px;
+    }
+
+    &:hover span#instagram-logo {
+      background-image: url(../assets/icons/instagram-logo-blue.svg);
+      width: 28px;
+      height: 28px;
+    }
+
+    &:hover span#github-logo {
+      background-image: url(../assets/icons/github-logo-blue.svg);
+      width: 28px;
+      height: 28px;
+    }
+
+    &:hover span#envelope-simple {
+      background-image: url(../assets/icons/envelope-simple-blue.svg);
+      width: 28px;
+      height: 28px;
+    }
+
+    &:hover {
+      border: 1.5px solid var(--blue);
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
   }
 
-  .item:not(:last-child) {
-    margin-bottom: 16px;
-  }
-
-  img:first-child {
+  span#linkedin-logo {
+    background-image: url(../assets/icons/linkedin-logo.svg);
     width: 28px;
     height: 28px;
   }
 
-  img:last-child {
-    width: 20px;
-    height: 20px;
-    justify-self: end;
+  span#instagram-logo {
+    background-image: url(../assets/icons/instagram-logo.svg);
+    width: 28px;
+    height: 28px;
+  }
+
+  span#github-logo {
+    background-image: url(../assets/icons/github-logo.svg);
+    width: 28px;
+    height: 28px;
+  }
+
+  span#envelope-simple {
+    background-image: url(../assets/icons/envelope-simple.svg);
+    width: 28px;
+    height: 28px;
+  }
+
+  img {
+    &:last-child {
+      width: 20px;
+      height: 20px;
+      justify-self: end;
+    }
   }
 }
